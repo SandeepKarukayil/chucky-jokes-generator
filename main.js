@@ -3,7 +3,7 @@ let btn = document.querySelector('button')
 btn.addEventListener('click',reload)
 function reload(){
     window.location.reload()
-}
+} 
 let url = `https://zenquotes.io/api/quotes`
  fetch(url)
 .then((res)=>res.json())
